@@ -1,6 +1,8 @@
 /**
  * Created by kapiton on 02.02.16.
  */
+
+//ПРАВИЛЬНОЕЕ НАЗВАТЬ scorecalculaTOR
 public class ScoreCalculate {
     public static int calculateScore(String[] data) {
         int score = 0;
