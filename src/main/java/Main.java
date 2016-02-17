@@ -20,6 +20,11 @@ public class Main {
         System.out.print(ScoreCalculate.calculateScore(data));
     }
 
+
+
+    /*Я ДУМАЮ, ЛУЧШЕ ВСЮ ТЕМУ СВЯЗАННУЮ С ЧТЕНИЕМ ДАННЫХ ВЫНЕСТИ В ОТДЕЛЬНЫЙ КЛАСС И ПРИКРЫТЬ КАКИМ-НИБУДЬ ИНТЕРФЕЙСОМ
+    * ВРОДЕ IDATASOURCE КАК ДЛЯ БАЗ ДАННЫХ НАМ ПОКАЗЫВАЛИ. В ИТОГЕ ЕСЛИ ЗАХОЧЕШЬ ДАННЫЕ ПО-ДРУГОМУ ПОЛУЧАТЬ (САЙТИК ТАМ)
+    * СМОЖЕШЬ МЕНЬШЕ НАПРЯГАТЬСЯ. НУ ПО КРАЙНЕЙ МЕРЕ ЧТЕНИЕ ИЗ stdin ЛУЧШЕ ВЫНЕСТИ В ДРУГОЙ КЛАСС.*/
     public static String[] readFromBuffer(BufferedReader br) throws IOException{
         String[] data = new String[10];
 

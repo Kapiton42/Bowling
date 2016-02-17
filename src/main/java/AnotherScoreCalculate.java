@@ -3,6 +3,9 @@ import java.util.ArrayList;
 /**
  * Created by kapiton on 13.02.16.
  */
+
+/*ЛОГИЧНЕЕ БЫЛО БЫ СОЗДАТЬ ИНТЕРФЕЙС ISCORECALCULATOR КОТОРЫЙ БЫ ГОВОРИЛ, ЧТО РЕАЛИЗАЦИИ ДОЛЖНЫ УМЕТЬ СЧИТАТЬ ОЧКИ.
+* А СЧИТАЛА БЫ КАЖДАЯ ПО-РАЗНОМУ*/
 public class AnotherScoreCalculate {
     public static int calculateScore(String[] hits) {
         ArrayList<Integer> intHits = createIntArray(hits);
