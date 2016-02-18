@@ -3,7 +3,7 @@ import java.util.ArrayList;
 /**
  * Created by kapiton on 13.02.16.
  */
-public class AnotherScoreCalculate {
+public class AnotherScoreCalculator {
     public static int calculateScore(String[] hits) {
         ArrayList<Integer> intHits = createIntArray(hits);
 

@@ -1,7 +1,7 @@
 /**
  * Created by kapiton on 02.02.16.
  */
-public class ScoreCalculate {
+public class ScoreCalculator {
     public static int calculateScore(String[] data) {
         int score = 0;
 
@@ -63,10 +63,10 @@ public class ScoreCalculate {
         if(data[9].substring(1, 2).equals("x"))
             score += 10;
         else
-            if(data[9].substring(1, 2).equals("/"))
-                score = 10;
-            else
-                score += value(data[9], 1);
+        if(data[9].substring(1, 2).equals("/"))
+            score = 10;
+        else
+            score += value(data[9], 1);
 
         if (data[9].length() == 3)
             if(data[9].substring(2, 3).equals("x"))

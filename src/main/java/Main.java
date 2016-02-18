@@ -17,7 +17,7 @@ public class Main {
             System.out.print("IOException");
             return;
         }
-        System.out.print(ScoreCalculate.calculateScore(data));
+        System.out.print(ScoreCalculator.calculateScore(data));
     }
 
     public static String[] readFromBuffer(BufferedReader br) throws IOException{

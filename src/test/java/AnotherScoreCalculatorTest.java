@@ -12,7 +12,7 @@ import static org.junit.Assert.*;
 /**
  * Created by kapiton on 13.02.16.
  */
-public class AnotherScoreCalculateTest {
+public class AnotherScoreCalculatorTest {
 
     public static final Map<String[], Integer> testData = new HashMap<String[], Integer>();
 
