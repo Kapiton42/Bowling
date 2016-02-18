@@ -27,8 +27,8 @@ public class AnotherScoreCalculatorTest {
 
     @Test
     public void testCalculate() {
-        for( HashMap.Entry<String[], Integer> entry: testData.entrySet())
-            assertEquals(entry.getValue().intValue(), AnotherScoreCalculate.calculateScore(entry.getKey()));
+        for( Map.Entry<String[], Integer> entry: testData.entrySet())
+            assertEquals(entry.getValue().intValue(), AnotherScoreCalculator.calculateScore(entry.getKey()));
     }
 
 

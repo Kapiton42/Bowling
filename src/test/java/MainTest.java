@@ -49,20 +49,20 @@ public class MainTest {
 
     @Test
     public void testCheckFrame() throws Exception {
-        for( HashMap.Entry<String, Boolean> entry: testData.entrySet())
+        for( Map.Entry<String, Boolean> entry: testData.entrySet())
             assertEquals(entry.getKey(), entry.getValue(), Main.checkFrame(entry.getKey()));
 
-        for( HashMap.Entry<String, Boolean> entry: testDataForCheckFrame.entrySet())
+        for( Map.Entry<String, Boolean> entry: testDataForCheckFrame.entrySet())
             assertEquals(entry.getKey(), entry.getValue(), Main.checkFrame(entry.getKey()));
 
     }
 
     @Test
     public void testCheckLastFrame() throws Exception {
-        for( HashMap.Entry<String, Boolean> entry: testData.entrySet())
+        for( Map.Entry<String, Boolean> entry: testData.entrySet())
             assertEquals(entry.getKey(), entry.getValue(), Main.checkLastFrame(entry.getKey()));
 
-        for( HashMap.Entry<String, Boolean> entry: testDataForCheckLastFrame.entrySet())
+        for( Map.Entry<String, Boolean> entry: testDataForCheckLastFrame.entrySet())
             assertEquals(entry.getKey(), entry.getValue(), Main.checkLastFrame(entry.getKey()));
     }
 }
